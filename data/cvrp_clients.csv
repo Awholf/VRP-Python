@@ -1,4 +1,4 @@
-﻿id,name,address,demand,location_y,location_x
+id,name,address,demand,location_y,location_x
 1,Cliente1,San Isidro,10,-12.0977,-77.0375
 2,Cliente2,Miraflores,15,-12.1227,-77.0297
 3,Cliente3,Barranco,20,-12.1423,-77.0207

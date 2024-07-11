@@ -1,8 +1,7 @@
-# gui/main_window.py
-
 import tkinter as tk
 from gui.load_data_window import LoadDataWindow
 from gui.solve_vrp_window import SolveVRPWindow
+from gui.solve_cvrp_window import SolveCVRPWindow  # Asegúrate de tener esta importación
 
 class MainWindow:
     def __init__(self, root):
@@ -15,11 +14,17 @@ class MainWindow:
         self.solve_vrp_button = tk.Button(root, text="Resolver VRP", command=self.open_solve_vrp_window)
         self.solve_vrp_button.pack(pady=10)
 
+        self.solve_cvrp_button = tk.Button(root, text="Resolver CVRP", command=self.open_solve_cvrp_window)
+        self.solve_cvrp_button.pack(pady=10)
+
     def open_load_data_window(self):
         LoadDataWindow(self.root)
 
     def open_solve_vrp_window(self):
         SolveVRPWindow(self.root)
+
+    def open_solve_cvrp_window(self):
+        SolveCVRPWindow(self.root)
 
 if __name__ == "__main__":
     root = tk.Tk()
