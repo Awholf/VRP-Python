@@ -1,0 +1,75 @@
+id,name,address,demand,location_x,location_y
+1,Cliente1,Cusco,10,-13.53195,-71.967462
+2,Cliente2,Pisac,15,-13.419424,-71.849162
+3,Cliente3,Ollantaytambo,20,-13.257907,-72.264797
+4,Cliente4,Urubamba,25,-13.304532,-72.116196
+5,Cliente5,Calca,30,-13.323474,-71.957414
+6,Cliente6,Chinchero,35,-13.384754,-72.048796
+7,Cliente7,Machu Picchu,40,-13.163141,-72.545033
+8,Cliente8,Anta,45,-13.410532,-72.045942
+9,Cliente9,San Sebastian,50,-13.539039,-71.927952
+10,Cliente10,San Jeronimo,55,-13.557962,-71.913317
+
+
+id,capacity
+1,100
+2,120
+3,150
+
+
+id,name,location_x,location_y,storage_capacity
+1,Almacen_Cusco,-13.53195,-71.967462,1000
+
+
+
+id,name,address,demand,location_x,location_y
+1,Cliente1,Arequipa,10,-16.409047,-71.537451
+2,Cliente2,Cayma,15,-16.385902,-71.542641
+3,Cliente3,Characato,20,-16.497714,-71.505995
+4,Cliente4,Chiguata,25,-16.452883,-71.474806
+5,Cliente5,Jacobo Hunter,30,-16.432078,-71.557412
+6,Cliente6,Jose Luis Bustamante y Rivero,35,-16.426874,-71.537571
+7,Cliente7,La Joya,40,-16.350000,-71.800000
+8,Cliente8,Miraflores,45,-16.398973,-71.526123
+9,Cliente9,Paucarpata,50,-16.432346,-71.500146
+10,Cliente10,Yanahuara,55,-16.404053,-71.546640
+
+
+id,capacity
+1,80
+2,100
+3,120
+4,140
+
+
+
+id,name,location_x,location_y,storage_capacity
+1,Almacen_Arequipa,-16.409047,-71.537451,800
+
+
+
+
+
+id,name,address,demand,type,location_x,location_y
+1,Cliente1,Trujillo,10,delivery,-8.109052,-79.021534
+2,Cliente2,Moche,15,delivery,-8.171669,-79.009877
+3,Cliente3,Huanchaco,20,delivery,-8.084251,-79.118606
+4,Cliente4,Florencia de Mora,25,delivery,-8.081666,-79.038907
+5,Cliente5,La Esperanza,30,delivery,-8.066607,-79.057163
+6,Cliente6,El Porvenir,35,delivery,-8.077380,-78.998045
+7,Cliente7,Víctor Larco Herrera,40,delivery,-8.118019,-79.045996
+8,Cliente8,Salaverry,45,pickup,-8.224733,-78.976464
+9,Cliente9,Chicama,50,pickup,-7.854303,-79.147898
+10,Cliente10,Virú,55,pickup,-8.417266,-78.754312
+
+
+
+id,capacity
+1,100
+2,120
+3,150
+
+
+
+id,name,location_x,location_y,storage_capacity
+1,Almacen_Trujillo,-8.109052,-79.021534,900
