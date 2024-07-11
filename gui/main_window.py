@@ -18,11 +18,11 @@ class MainWindow:
         style.configure("TNotebook", padding=6)
         style.configure("TNotebook.Tab", padding=6)
 
-        # Crear el notebook (pestañas)
+      
         self.notebook = ttk.Notebook(root)
         self.notebook.pack(pady=10, expand=True, fill='both')
 
-        # Crear los frames para cada pestaña
+        
         self.frame_load_data = ttk.Frame(self.notebook)
         self.frame_vrp = ttk.Frame(self.notebook)
         self.frame_cvrp = ttk.Frame(self.notebook)
@@ -33,21 +33,21 @@ class MainWindow:
         self.frame_cvrp.pack(fill="both", expand=True)
         self.frame_vrpb.pack(fill="both", expand=True)
 
-        # Añadir frames al notebook
+      
         self.notebook.add(self.frame_load_data, text="Cargar Datos")
         self.notebook.add(self.frame_vrp, text="Resolver VRP")
         self.notebook.add(self.frame_cvrp, text="Resolver CVRP")
         self.notebook.add(self.frame_vrpb, text="Resolver VRPB")
 
-        # Cargar Datos
+     
         self.load_data_label = ttk.Label(self.frame_load_data, text="Cargar Datos desde archivos CSV")
         self.load_data_label.pack(pady=10)
         self.load_data_button = ttk.Button(self.frame_load_data, text="Cargar Datos", command=self.open_load_data_window)
         self.load_data_button.pack(pady=10)
 
-        # Añadir la imagen debajo del botón de cargar datos
+      
         self.background_image = Image.open("data/logo.jpg")
-        self.background_image = self.background_image.resize((400, 280), Image.ANTIALIAS)  # Redimensionar la imagen
+        self.background_image = self.background_image.resize((400, 280), Image.ANTIALIAS)  
         self.background_photo = ImageTk.PhotoImage(self.background_image)
         self.image_label = ttk.Label(self.frame_load_data, image=self.background_photo)
         self.image_label.pack(pady=10)

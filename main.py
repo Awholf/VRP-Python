@@ -1,5 +1,3 @@
-# main.py
-# main.py
 
 from gui.main_window import MainWindow
 import tkinter as tk
