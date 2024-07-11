@@ -6,12 +6,15 @@ from models.warehouse import Warehouse
 def load_clients(file_path):
     clients_df = pd.read_csv(file_path)
     clients = []
+    type_exists = 'type' in clients_df.columns  # Verificar si el campo 'type' existe en el CSV
+
     for _, row in clients_df.iterrows():
         client = Client(
             id=row['id'],
             name=row['name'],
             address=row['address'],
             demand=row['demand'],
+            type=row['type'] if type_exists else 'delivery',  # Usar 'delivery' si 'type' no está en el CSV
             location=(row['location_y'], row['location_x'])
         )
         clients.append(client)

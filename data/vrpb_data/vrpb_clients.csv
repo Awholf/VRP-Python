@@ -1,0 +1,11 @@
+id,name,address,demand,type,location_y,location_x
+1,Cliente1,San Isidro,10,delivery,-12.0977,-77.0375
+2,Cliente2,Miraflores,15,delivery,-12.1227,-77.0297
+3,Cliente3,Barranco,20,delivery,-12.1423,-77.0207
+4,Cliente4,Surco,25,delivery,-12.1525,-76.9991
+5,Cliente5,La Molina,30,delivery,-12.0935,-76.9410
+6,Cliente6,San Borja,10,delivery,-12.1055,-76.9956
+7,Cliente7,Lince,15,pickup,-12.0753,-77.0343
+8,Cliente8,Pueblo Libre,20,pickup,-12.0752,-77.0706
+9,Cliente9,Jesús María,25,pickup,-12.0822,-77.0490
+10,Cliente10,Magdalena del Mar,30,pickup,-12.0865,-77.0607

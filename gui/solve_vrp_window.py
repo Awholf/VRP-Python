@@ -15,9 +15,9 @@ class SolveVRPWindow:
         self.result_label.pack(pady=10)
 
     def solve_vrp(self):
-        clients = load_clients('data/clients.csv')
-        vehicles = load_vehicles('data/vehicles.csv')
-        warehouse = load_warehouse('data/warehouse.csv')
+        clients = load_clients('data/vrp_data/clients.csv')
+        vehicles = load_vehicles('data/vrp_data/vehicles.csv')
+        warehouse = load_warehouse('data/vrp_data/warehouse.csv')
 
         vehicle_routes = solve_vrp(clients, vehicles, warehouse)
         

@@ -1,7 +1,7 @@
 # models/client.py
 
 class Client:
-    def __init__(self, id, name, address, demand, location):
+    def __init__(self, id, name, address, demand, location, type='delivery'):
         """
         Inicializa un nuevo cliente.
 
@@ -16,6 +16,7 @@ class Client:
         self.address = address
         self.demand = demand
         self.location = location
+        self.type = type
 
     def get_location(self):
         """
